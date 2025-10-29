@@ -1,14 +1,11 @@
-/* Importando fonte moderna */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
 
-/* Reset básico */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Corpo */
 body {
     font-family: 'Segoe UI', sans-serif;
     line-height: 1.6;
@@ -16,13 +13,11 @@ body {
     color: #333;
 }
 
-/* Tipografia refinada */
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
 
-/* Cabeçalho */
 .header {
     background-color: #34495e;
     color: #fff;
@@ -54,14 +49,12 @@ h1, h2, h3 {
     color: #00b894;
 }
 
-/* Container principal */
 .container {
     max-width: 1000px;
     margin: auto;
     padding: 2rem;
 }
 
-/* Seções */
 section {
     margin-bottom: 4rem;
 }
@@ -78,7 +71,6 @@ section p {
     line-height: 1.8;
 }
 
-/* Botão */
 .botao button {
     background-color: #00b894;
     border: none;
@@ -98,7 +90,6 @@ section p {
     background-color: #019875;
 }
 
-/* Layout lado a lado para seções com imagem e texto */
 #sobre,
 #isolacao,
 #solucoes,
@@ -132,7 +123,6 @@ section p {
     box-shadow: 0 2px 10px rgba(0,0,0,0.5);
 }
 
-/* Pilares */
 .pilares {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -160,7 +150,6 @@ section p {
     margin-bottom: 0.5rem;
 }
 
-/* Atribuições */
 .atribuicoes {
     background-color: #ecf0f1;
     padding: 2rem;
@@ -190,7 +179,6 @@ section p {
     text-decoration: underline;
 }
 
-/* Responsividade */
 @media (min-width: 769px) {
     #sobre,
     #isolacao,
