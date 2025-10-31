@@ -338,6 +338,7 @@ section h2 {
     font-weight: 700;
     font-size: 1.1rem;
     padding: 1.2rem 3rem;
+    text-transform: uppercase;
     border-radius: 4px;
     transition: all 0.3s ease;
     box-shadow: 0 4px 20px rgba(255, 191, 0, 0.4);
@@ -457,4 +458,5 @@ section h2 {
         grid-template-columns: 1fr;
         gap: 3rem;
     }
+
 }
