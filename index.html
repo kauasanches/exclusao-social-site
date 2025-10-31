@@ -5,145 +5,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/245fa0f253.js" crossorigin="anonymous"></script>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    
     <link rel="stylesheet" href="style.css">
     <title>A exclusão social</title>
 </head>
 
 <body>
-    <div class="header">
-        <h1>Exclusão Social: O Desafio da Inclusão</h1>
+    <header class="header">
+        <div class="header-container">
+            <a href="#" class="logo">
+                <h1>INVISÍVEIS.</h1>
+            </a>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="#sobre">O Vazio</a></li>
+                    <li><a href="#impactos">Pilares</a></li>
+                    <li><a href="#solucoes">A Luz</a></li>
+                </ul>
+            </nav>
+            <div class="menu-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
 
-        <ul>
-            <li><a href="#sobre">O que é</a></li>
-            <li><a href="#impactos">Impactos</a></li>
-            <li><a href="#solucoes">Soluções</a></li>
-        </ul>
-    </div>
-    <div class="container">
-        <section id="hero">
-            <h1>Exclusão social não é destino, é desafio — vamos construir inclusão, juntos!</h1>
-            <p>A exclusão social é mais do que a falta de renda; é um processo multidimensional que nega a participação
-                plena de indivíduos e grupos na vida econômica, política, social e cultural. Milhões de pessoas vivem à
-                margem, não apenas por carência material, mas pela falta de reconhecimento e de direitos. Conheça as
-                raízes profundas deste desafio e descubra o caminho urgente para a construção de uma sociedade
-                verdadeiramente inclusiva.</p>
-            <div class="botao">
-            </div>
-        </section>
+    <section id="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>A DOR DA AUSÊNCIA.</h1>
+            <p>Em um mundo que corre, alguns ficam para trás. Nós olhamos para a invisibilidade.</p>
+            <a href="#sobre" class="cta-button">SENTIR ESSA REALIDADE</a>
+        </div>
+    </section>
 
-        <section id="sobre">
-            <div class="sobre-texto">
-                <h1>Definindo a Exclusão Social</h1>
-                <p>Entender a exclusão social exige ir além da pobreza. É um fenômeno dinâmico caracterizado pela
-                    acumulação de privações: a falta de acesso a serviços de qualidade (saúde e educação), a dificuldade
-                    em participar do mercado de trabalho formal, e a ausência de representação política. Este processo
-                    marginaliza sistematicamente grupos com base em raça, etnia, gênero, deficiência e localização
-                    geográfica, transformando desigualdades em injustiça simbólica e material.</p>
-            </div>
-            <div class="sobre-img">
-                <img src="./img/img-sobre.jpg" alt="Sobre - IMG">
-            </div>
-        </section>
+    <section id="sobre" class="secao-clara container">
+        <div class="sobre-texto">
+            <h2>DESVENDANDO A INVISIBILIDADE</h2>
+            <p>Entender a exclusão social exige ir além da pobreza. É um fenômeno dinâmico caracterizado pela
+                acumulação de privações: a falta de acesso a serviços de qualidade (saúde e educação), a dificuldade
+                em participar do mercado de trabalho formal, e a ausência de representação política.</p>
+            <p>Este processo
+                marginaliza sistematicamente grupos com base em raça, etnia, gênero, deficiência e localização
+                geográfica, transformando desigualdades em injustiça simbólica e material.</p>
+        </div>
+        <div class="sobre-img">
+            <img src="./img/img-sobre.jpg" alt="Pessoa sentada, representando isolamento">
+        </div>
+    </section>
 
-        <section id="isolacao">
-            <div class="isolacao-img">
-                <img src="./img/isolation.jpg" alt="">
-            </div>
-            <div class="isolacao-texto">
-                <p>A exclusão não afeta apenas o indivíduo; ela enfraquece toda a sociedade. A falta de acesso à
-                    educação perpetua a desigualdade. A precariedade na saúde pública mina o potencial humano. O
-                    preconceito e a discriminação fragmentam comunidades.</p>
-                <p>A exclusão social afeta vidas, limita oportunidades e silenciosamente isola pessoas. Combater 
-                    isso é construir uma sociedade mais justa e humana.</p>
-            </div>
-        </section>
-
-        <section id="impactos">
+    <section id="impactos" class="secao-escura">
+        <div class="container">
+            <h2>AS CORRENTES QUE NOS FRAGMENTAM</h2>
             <div class="pilares">
-                <div class="pilar1">
-                    <i class="fa-solid fa-money-bill"></i>
-                    <h3>1. Econômica e Renda:</h3>
+                <div class="pilar-card">
+                    <i class="fa-solid fa-money-bill-wave"></i>
+                    <h3>1. Econômica e Renda</h3>
                     <p>A precariedade do emprego e a informalidade resultam em um ciclo vicioso de pobreza. A exclusão
                         econômica é a porta de entrada para todas as outras privações.</p>
                 </div>
-                <div class="pilar2">
-                    <i class="fa-solid fa-school"></i>
-                    <h3>2. Acesso à Educação:</h3>
+                <div class="pilar-card">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <h3>2. Acesso à Educação</h3>
                     <p>A ausência de escolaridade ou o ensino de baixa qualidade perpetua o abismo social. Jovens em
-                        periferias e negros enfrentam barreiras estruturais que limitam suas chances de ascensão.</p>
+                        periferias enfrentam barreiras estruturais que limitam suas chances de ascensão.</p>
                 </div>
-                <div class="pilar3">
-                    <i class="fa-solid fa-house-medical"></i>
-                    <h3>3. Saúde e Moradia:</h3>
-                    <p>A falta de acesso a serviços de saúde preventiva e a moradias dignas (segregação urbana) não
-                        apenas gera doenças, mas reduz a expectativa e a qualidade de vida.</p>
+                <div class="pilar-card">
+                    <i class="fa-solid fa-house-chimney-medical"></i>
+                    <h3>3. Saúde e Moradia</h3>
+                    <p>A falta de acesso a serviços de saúde preventiva e a moradias dignas (segregação urbana) reduz a expectativa e a qualidade de vida.</p>
                 </div>
-                <div class="pilar4">
-                    <i class="fa-solid fa-person-circle-xmark"></i>
-                    <h3>4. Discriminação e Reconhecimento:</h3>
-                    <p>A exclusão cultural e identitária é a <b>negação da alteridade</b>. Estigmas relacionados à
-                        etnia, gênero (Exclusão de Gênero), ou deficiência negam o valor e a voz do indivíduo,
-                        resultando em um isolamento social profundo.</p>
+                <div class="pilar-card">
+                    <i class="fa-solid fa-user-slash"></i>
+                    <h3>4. Discriminação</h3>
+                    <p>A exclusão cultural é a <b>negação da alteridade</b>. Estigmas relacionados à
+                        etnia, gênero, ou deficiência negam o valor e a voz do indivíduo.</p>
                 </div>
             </div>
-        </section>
 
-        <section id="solucoes">
-            <div class="solucao-texto">
-                <h1>Caminhos para uma Inclusão Efetiva</h1>
-                <p>Romper o ciclo da exclusão exige ações em múltiplas frentes. A Inclusão Social busca garantir que
-                    todos tenham acesso a oportunidades e recursos, transformando a carência em direito. Precisamos de:
-                    <b>1.</b> Políticas de Renda e Emprego Digno (capacitação e formalização). <b>2.</b> Investimento em
-                    Educação Inclusiva e Qualificada (combate ao sexismo e racismo na escola). <b>3.</b> Acessibilidade
-                    Universal e Saúde Pública (combate à segregação espacial e etária). <b>4.</b> Combate à
-                    Discriminação (criminalização de toda forma de preconceito).</p>
+            <div class="numeros-impacto">
+                <h3>O QUE OS NÚMEROS NOS GRITAM.</h3>
+                <div class="numeros-grid">
+                    <div class="numero-card">
+                        <span class="numero">27,4%</span>
+                        <p>Vivem com rendimento domiciliar por pessoa abaixo da linha de pobreza. (até US $ 6,85 por dia)</p>
+                    </div>
+                    <div class="numero-card">
+                        <span class="numero">4,4%</span>
+                        <p>Vivem em extrema pobreza. (até ~US $ 2,15 dia)</p>
+                    </div>
+                    <div class="numero-card">
+                        <span class="numero">1Bi+</span>
+                        <p>Pessoas vivem em moradias inadequadas globalmente.</p>
+                    </div>
+                </div>
             </div>
-            <div class="solucao-img">
-                <img src="./img/inclusao.jpg" alt="">
-            </div>
-        </section>
 
-        <section id="facasuaparte">
-            <div class="suaparte-img">
-                <img src="./img/hand.jpg" alt="Inclusão">
-            </div>
+        </div>
+    </section>
+
+    <section id="solucoes" class="secao-clara container">
+        <div class="solucao-img">
+            <img src="./img/inclusao.jpg" alt="Mãos unidas simbolizando inclusão">
+        </div>
+        <div class="solucao-texto">
+            <h2>RECONSTRUINDO PONTES: O CAMINHO À FRENTE</h2>
+            <p>Romper o ciclo da exclusão exige ações em múltiplas frentes. A Inclusão Social busca garantir que
+                todos tenham acesso a oportunidades e recursos, transformando a carência em direito. Precisamos de:
+            </p>
+            <ul>
+                <li><i class="fa-solid fa-check-circle"></i> Políticas de Renda e Emprego Digno (capacitação e formalização).</li>
+                <li><i class="fa-solid fa-check-circle"></i> Investimento em Educação Inclusiva e Qualificada (combate ao sexismo e racismo).</li>
+                <li><i class="fa-solid fa-check-circle"></i> Acessibilidade Universal e Saúde Pública (combate à segregação espacial).</li>
+                <li><i class="fa-solid fa-check-circle"></i> Combate à Discriminação (criminalização de toda forma de preconceito).</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="facasuaparte" class="secao-escura">
+        <div class="container cta-final-container">
             <div class="suaparte-texto">
-                <h1>A Sua Ação Transforma Realidades. Começe agora!</h1>
-                <p>A verdadeira riqueza de uma comunidade está na inclusão de todos os seus membros, respeitando suas 
-                    diferenças e promovendo igualdade.</p>
+                <h2>QUEBRE O CICLO. CRIE O FUTURO.</h2>
                 <p>Nenhum país é desenvolvido sem que a sociedade se envolva com a educação, a equidade e a justiça. O
-                    conhecimento é o primeiro passo; a ação é o segundo. Seja a ponte para a inclusão. Doe,
-                    voluntarie-se ou simplesmente compartilhe esta causa. Juntos, podemos construir um futuro onde a
-                    cidadania não seja um privilégio, mas um direito de todos.</p>
+                    conhecimento é o primeiro passo; a ação é o segundo. Seja a ponte para a inclusão.</p>
+                <a href="https://app.protegebullying.com.br/denuncia" target="_blank" class="cta-button-final">Denuncie aqui <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
             </div>
+            <div class="suaparte-img">
+                <img src="./img/hand.jpg" alt="Mão estendida pedindo ou oferecendo ajuda">
+            </div>
+        </div>
+    </section>
 
-        </section>
-    </div>
-    <div class="atribuicoes">
-        <h3>Atribuições</h3>
-        <ul>
-            <li>Foto de <a
-                    href="https://unsplash.com/pt-br/@shhiscat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Carolina</a>
-                na <a
-                    href="https://unsplash.com/pt-br/fotografias/uma-mulher-sentada-no-chao-com-os-bracos-enrolados-em-torno-de-sua-cabeca-ghYHNrzS8pk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-            </li>
-            <li>Foto de <a
-                    href="https://unsplash.com/pt-br/@sharonmccutcheon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexander
-                    Grey</a> na <a
-                    href="https://unsplash.com/pt-br/fotografias/mulher-cobrindo-os-olhos-usando-cabelo-trancado-2L50Or-nJDw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-            </li>
-            <li>Foto de <a
-                    href="https://unsplash.com/pt-br/@claybanks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Clay
-                    Banks</a> na <a
-                    href="https://unsplash.com/pt-br/fotografias/five-human-hands-on-brown-surface-LjqARJaJotc?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-            </li>
-            <li>Imagem de <a
-                    href="https://pixabay.com/pt/users/vilkasss-35420724/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8989919">Vilius
-                    Kukanauskas</a> por <a
-                    href="https://pixabay.com/pt//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=8989919">Pixabay</a>
-            </li>
-        </ul>
-    </div>
+    <footer class="footer">
+        <div class="atribuicoes">
+            <h3>Créditos das Imagens</h3>
+            <ul>
+                <li>Foto de <a href="https.../carolina">Carolina</a> na <a href=".../unsplash">Unsplash</a></li>
+                <li>Foto de <a href=".../alexander-grey">Alexander Grey</a> na <a href=".../unsplash">Unsplash</a></li>
+                <li>Foto de <a href=".../clay-banks">Clay Banks</a> na <a href=".../unsplash">Unsplash</a></li>
+                <li>Imagem de <a href=".../vilius-kukanauskas">Vilius Kukanauskas</a> por <a href=".../pixabay">Pixabay</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function () {
+            document.querySelector('.nav-menu').classList.toggle('active');
+        });
+    </script>
 </body>
 
 </html>
