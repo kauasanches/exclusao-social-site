@@ -141,7 +141,7 @@ img {
     width: 100%;
     height: 100%;
     background-color: var(--fundo-principal);
-    opacity: 0.7; /* Ajuste a opacidade para o seu gosto */
+    opacity: 0.7;
     z-index: 1;
 }
 
@@ -160,7 +160,7 @@ img {
 #hero p {
     font-size: 1.3rem;
     font-weight: 500;
-    color: var(--destaque-acao); /* Subtítulo em Âmbar */
+    color: var(--destaque-acao);
     max-width: 60ch;
     margin: 0 auto 2.5rem auto;
 }
@@ -168,7 +168,7 @@ img {
 .cta-button {
     display: inline-block;
     background-color: var(--destaque-acao);
-    color: var(--fundo-principal); /* Texto escuro no botão claro */
+    color: var(--fundo-principal);
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
@@ -177,7 +177,7 @@ img {
     padding: 1rem 2.5rem;
     border-radius: 4px;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 15px rgba(255, 191, 0, 0.3); /* Brilho sutil */
+    box-shadow: 0 4px 15px rgba(255, 191, 0, 0.3);
 }
 
 .cta-button:hover {
@@ -185,16 +185,18 @@ img {
     box-shadow: 0 8px 25px rgba(255, 191, 0, 0.5);
 }
 
-/* --- 4. SEÇÕES CLARAS E ESCURAS --- */
 section {
-    padding: 6rem 0; /* Espaçamento generoso */
+    padding: 6rem 0;
 }
 
 .secao-clara {
     background-color: var(--fundo-claro);
     color: var(--texto-escuro);
+    border-radius: 15px;
 }
-.secao-clara h2 { color: var(--texto-escuro); }
+.secao-clara h2 {
+    color: var(--texto-escuro);
+}
 
 .secao-escura {
     background-color: var(--fundo-principal);
@@ -211,13 +213,21 @@ section h2 {
     margin-top: 80px;
 }
 
-/* --- 5. LAYOUTS DE SEÇÃO (SOBRE, SOLUCOES) --- */
 #sobre, #solucoes {
     display: flex;
     align-items: center;
     gap: 4rem;
     padding: 80px;
-    border-radius: 15px;
+}
+
+#denuncia {
+    text-align: center;
+    padding: 80px;
+    margin-bottom: 80px;
+
+    & p {
+        font-size: 20px;
+    }
 }
 
 .sobre-texto, .solucao-texto { flex: 1; }
@@ -237,10 +247,9 @@ section h2 {
 }
 
 #solucoes li i {
-    color: var(--destaque-acao); /* Ícone de check */
+    color: var(--destaque-acao);
 }
 
-/* --- 6. SEÇÃO IMPACTOS (PILARES) --- */
 .pilares {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -248,7 +257,7 @@ section h2 {
 }
 
 .pilar-card {
-    background-color: rgba(90, 106, 128, 0.1); /* Fundo sutil */
+    background-color: rgba(90, 106, 128, 0.1);
     padding: 2rem 2rem;
     border-radius: 8px;
     text-align: center;
@@ -259,7 +268,7 @@ section h2 {
 .pilar-card:hover {
     transform: translateY(-10px);
     background-color: rgba(90, 106, 128, 0.2);
-    border-color: var(--destaque-acao); /* Borda destaca no hover */
+    border-color: var(--destaque-acao);
 }
 
 .pilar-card i {
@@ -273,7 +282,6 @@ section h2 {
     color: var(--texto-principal);
 }
 
-/* --- 7. NÚMEROS DE IMPACTO --- */
 .numeros-impacto {
     text-align: center;
     margin-top: 6rem;
@@ -308,7 +316,6 @@ section h2 {
     margin: 0.5rem auto 0 auto;
 }
 
-/* --- 8. CTA FINAL (FAÇA SUA PARTE) --- */
 #facasuaparte {
     padding: 6rem 0;
 }
@@ -318,7 +325,7 @@ section h2 {
     align-items: center;
     gap: 4rem;
     text-align: left;
-    flex-direction: row-reverse; /* Imagem à direita */
+    flex-direction: row-reverse;
 }
 
 .suaparte-texto { flex: 1; }
@@ -350,7 +357,6 @@ section h2 {
     box-shadow: 0 8px 30px rgba(255, 191, 0, 0.6);
 }
 
-/* --- 9. FOOTER --- */
 .footer {
     background-color: var(--fundo-footer);
     padding: 4rem 2rem;
@@ -383,24 +389,22 @@ section h2 {
 }
 
 
-/* --- 10. RESPONSIVIDADE (MOBILE) --- */
+
 @media (max-width: 768px) {
     body {
-        /* Garante que o menu mobile funcione bem */
         overflow-x: hidden; 
     }
 
     h1 { font-size: 2.5rem; }
     h2 { font-size: 2rem; }
 
-    /* Menu Hamburger */
     .menu-toggle {
         display: block;
-        z-index: 1001; /* Acima do menu */
+        z-index: 1001;
     }
 
     .nav-menu {
-        display: none; /* Escondido por padrão */
+        display: none;
         position: fixed;
         top: 0;
         left: 0;
@@ -414,7 +418,7 @@ section h2 {
     }
     
     .nav-menu.active {
-        display: flex; /* Mostra o menu */
+        display: flex;
     }
 
     .nav-menu ul {
@@ -427,7 +431,6 @@ section h2 {
         font-size: 1.5rem;
     }
 
-    /* Layouts de Seção */
     #sobre, #solucoes, .cta-final-container {
         flex-direction: column;
         text-align: center;
@@ -435,7 +438,7 @@ section h2 {
     }
 
     #solucoes {
-        flex-direction: column-reverse; /* Imagem primeiro */
+        flex-direction: column-reverse;
     }
     
     #solucoes ul {
